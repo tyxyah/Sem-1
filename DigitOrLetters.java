@@ -38,7 +38,6 @@ public class DigitOrLetters {
 				else if(Character.isLetter(fName.charAt(i)))
 					isLetter = true;
 				i++;
-			
 			}	
 			
 			//to display mixed character
@@ -54,5 +53,4 @@ public class DigitOrLetters {
 		}
 	input.close();
 	}
-
 }
