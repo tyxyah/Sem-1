@@ -1,6 +1,6 @@
 /*************************************************************************************/
 /* This is a program that prompts the user to enter the number of students           */
-/* and each student’s name and score, and finally displays the names of the          */
+/* and each studentâ€™s name and score, and finally displays the names of the          */
 /* students with the lowest and second-lowest scores.                                */
 /* Course Name : Computer Programming I                                              */
 /* Course Code : SSK3100 Group 3                                                     */
@@ -64,10 +64,8 @@ public class TwoLowestScore {
 		} else if(i > 2 && score < secLow) {
 			secLow = score;
 			student2 = name;	
-		}
-			
+		}	
 		i++;
-		
 		}
 		//display the lowest and second lowest student with respective score
 		System.out.println("Student with the lowest score is : " + student1 + " / " + lowest);
